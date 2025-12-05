@@ -1,0 +1,15 @@
+cmd: python credit_risk_monitor.py
+deps:
+- path: credit_predictions_log.csv
+  hash: md5
+  md5: 24a2a4055794e83e75e3f496e9c5cf41
+  size: 2495
+- path: credit_risk_monitor.py
+  hash: md5
+  md5: feb6954d01493e46d3f61fc5aef577ee
+  size: 469
+outs:
+- path: default_probability_distribution.png
+  hash: md5
+  md5: 006378539601dbc0c95ee85d1113acf1
+  size: 24756

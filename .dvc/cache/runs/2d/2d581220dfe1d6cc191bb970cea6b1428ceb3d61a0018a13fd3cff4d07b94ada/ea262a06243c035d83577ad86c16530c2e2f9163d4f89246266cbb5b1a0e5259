@@ -1,0 +1,11 @@
+cmd: python credit_risk_v5.py
+deps:
+- path: credit_risk_v5.py
+  hash: md5
+  md5: 21acb6ded74f926c99ddb31e87867d9e
+  size: 9810
+outs:
+- path: best_credit_model.joblib
+  hash: md5
+  md5: 67f7808c57f65ae8dd19e3f8a28bc1b0
+  size: 2980320

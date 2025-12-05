@@ -1,0 +1,15 @@
+stages:
+  train:
+    cmd: python credit_risk_v5.py
+    deps:
+      - credit_risk_v5.py
+    outs:
+      - best_credit_model.joblib
+
+  monitor:
+    cmd: python credit_risk_monitor.py
+    deps:
+      - credit_risk_monitor.py
+      - credit_predictions_log.csv
+    outs:
+      - default_probability_distribution.png
